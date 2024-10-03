@@ -1,0 +1,50 @@
+form {
+  border: dotted 5px red;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+}
+label {
+  border: dashed 5px blue;
+}
+button {
+  padding: 5px;
+}
+.input-container {
+  padding: 15px;
+  background-color: red;
+  color: white;
+}
+#roles-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 25px 0 25px;
+  width: fit-content;
+}
+#roles-container * {
+  border: 1px dashed orange;
+  padding: 5px;
+}
+button {
+  width: fit-content;
+}
+.input-1 {
+  background-color: blue;
+  color: white;
+}
+.input-2 {
+  background-color: green;
+  color: white;
+}
+.input-3 {
+  background-color: red;
+  color: white;
+}
+.input-4 {
+  background-color: orange;
+  color: white;
+}
+.input-5 {
+  background-color: cyan;
+  color: white;
+}
