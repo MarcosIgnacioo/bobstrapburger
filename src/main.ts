@@ -1,7 +1,10 @@
 import './style.css'
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
+import bootstrap from 'bootstrap'
 import { setupCounter } from './counter.ts'
+
+const asdf = bootstrap.Modal.call()
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
